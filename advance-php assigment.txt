@@ -1,0 +1,80 @@
+1) What Is Object Oriented Programming?
+
+oops stands for object oriented programming structured language 
+oops used in advanced php this is start to support php5 | php7 | php 8
+oops used to make secured applications 
+MVC architectures is used oops concepts to make secured application 
+Model | view and controller this is an architectures where we used oops 
+
+2) What Are Properties Of Object Oriented Systems?
+
+a) class
+  b) object 
+  c) inheritance 
+        1) single inheritance 
+        2) multilevel inheritance 
+        3) multiple inheritance 
+
+  d) abstractions 
+  e) polymorphism 
+        1) method_overloading 
+        2) method_overriding 
+        
+  f) encapsulation 
+
+3) What Is Difference Between Class And Interface?
+A class is a blueprint for objects, while an interface declares a set of methods that a class must implement
+
+4) What Is Overloading?
+when we completed any applications using same function pass with different arguments there we used method overloading.
+
+5) What Is T_PAAMAYIM_NEKUDOTAYIM (Scope Resolution Operator (::) with Example
+ in PHP T_PAAMAYIM_NEKUDOTAYIM is the token name for :: , the static separator.
+<?php
+class A 
+{
+    public static function display()
+    {
+        $name="I am rahul bagada";
+        echo $name;
+    }
+}
+
+A::display();
+?>
+6) What are the differences between abstract classes and interfaces?
+The difference between interfaces and abstract classes are: Interfaces cannot have properties, while abstract classes can
+
+7) Define Constructor and Destructor?
+       constructor is same name of class when we called the object of any class constructor automatically called
+        function __construct()
+       {
+       // initialize the object and its properties by assigning 
+       //values
+       }
+
+Destructors are for destroying objects and automatically called at the end of execution.
+      function __destruct()
+       {
+       // initialize the object and its properties by assigning 
+       //values
+       }
+
+8) How to Load Classes in PHP?
+PHP load classes are used for declaring its object etc. in object oriented applications. PHP parser loads it automatically, if it is registered with spl_autoload_register() function. 
+
+
+9) How to Call Parent Constructor?
+a call to parent::__construct() within the child constructor is required
+
+10) Are Parent Constructor Called Implicitly When Create An ObjectOf Class?
+We can't run directly the parent class constructor in child class if the child class defines a constructor. In order to run a parent constructor, a call to parent::__construct() within the child constructor is required.
+
+11) What Happen, If Constructor Is Defined As Private Or Protected?
+if Constructor is defined as private or protected as declare so runtime fatal error show
+
+12) What are PHP Magic Methods/Functions? List them Write program for Static Keyword in PHP?
+ provide a way to implement certain functionalities in PHP classes that are automatically triggered in response to specific events or operations and magic method double underscore to define.
+ __constructor, __decstructor, set, get 
+The static keyword is used to declare properties and methods of a class as static. Static properties and methods can be used without creating an instance of the class.
+The static keyword is also used to declare variables in a function which keep their value after the function has ended.
